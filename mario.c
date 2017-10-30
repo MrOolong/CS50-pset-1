@@ -8,14 +8,18 @@ int main(void) {
     int i,j,k; //where i is the row and j is col1, k is col2
 
 //prompt user for valid input(0-23 are valid inputs) with get_int
-
+do
+{
     printf("Please select a Pyramid Height between (0-23)");
         height = get_int(); //get user input for print pattern height
-        int width = height-1;
+
+}
 
 while (height < 0 || height > 23)
 ;
 {
+    int width = height-1;
+
     for (i = 1; i <= height; i++)  //print the rows
     {
 
