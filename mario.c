@@ -23,7 +23,7 @@ while (height < 0 || height > 23)
             printf(" ");
         }
         width--;
-        for (k = 1; k <= i; k++) //print the hash loop
+        for (k = 1; k <= i+1; k++) //print the hash loop +1 adds double in first row
         {
             printf("#");
         }
