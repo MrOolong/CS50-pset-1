@@ -9,12 +9,14 @@ int main (void){
 float change; //var to use for prompting user input
 int coins, cents;
 
+do
+{
     printf("O hai! How much change is owed?\n");
         change = get_float();
     //printf("You're owed %f \n\n", change); //test print to see float amount
+}
 
-
-while ( change < 0)
+while ( change <= 0)
 ;
 {
     //convert to cents
